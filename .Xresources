@@ -1,0 +1,49 @@
+Xft.hinting: 1
+Xft.hintstyle: hintslight
+Xft.antialias: 1
+Xft.rgba: rgb 
+! Base16 oomox-orville
+! Scheme: oomox-orville
+
+#define base00 #0b1d2b
+#define base01 #282c28
+#define base02 #7f6382
+#define base03 #628992
+#define base04 #000917
+#define base05 #bbf6f9
+#define base06 #a7fcff
+#define base07 #fefeff
+#define base08 #ff6d81
+#define base09 #f2e576
+#define base0A #ebed9b
+#define base0B #78d391
+#define base0C #2edaf9
+#define base0D #4798ea
+#define base0E #f2b1ee
+#define base0F #e49567
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07
